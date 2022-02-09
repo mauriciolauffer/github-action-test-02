@@ -12,7 +12,7 @@ jobs:
           release-type: node
           package-name: github-action-test-02
       - run: |
-          echo ${{ fromJSON( steps ) }}
+          echo ${{ steps }}
           git branch
           git status
       - run: |
