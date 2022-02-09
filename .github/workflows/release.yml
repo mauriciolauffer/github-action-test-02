@@ -3,12 +3,30 @@ on:
   push:
     branches: [master, main]
 
+permissions: read-all
+
 jobs:
   release:
     runs-on: ubuntu-latest
+    permissions:
+     pull-requests: write
     steps:
       - uses: google-github-actions/release-please-action@v3
         with:
           release-type: node
-          package-name: github-action-test-02
-
+          package-name: openui5-validator
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 16
+          cache: npm
+      - run: |
+          echo ${{ toJSON( steps.release.outputs ) }}
+          git branch
+          git status
+      - run: |
+          npm run lint
+          npm run test
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+        if: ${{ steps.release.outputs.release_created }}
