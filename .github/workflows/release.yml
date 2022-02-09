@@ -6,13 +6,14 @@ on:
 jobs:
   release:
     runs-on: ubuntu-latest
+    needs: build
     steps:
       - uses: google-github-actions/release-please-action@v3
         with:
           release-type: node
           package-name: github-action-test-02
       - run: |
-          echo ${{ steps }}
+          echo ${{ steps.release.outputs }}
           git branch
           git status
       - run: |
