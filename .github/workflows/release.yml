@@ -7,6 +7,11 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 16
+          cache: npm
       - run: npm run build
       - run: git branch
       - run: git status
@@ -14,11 +19,6 @@ jobs:
         with:
           release-type: node
           package-name: github-action-test-02
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-        with:
-          node-version: 16
-          cache: npm
       - run: |
           echo ${{ toJSON( steps ) }}
           git branch
