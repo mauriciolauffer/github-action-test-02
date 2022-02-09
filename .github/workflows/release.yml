@@ -7,6 +7,9 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
+      - run: npm run build
+      - run: git branch
+      - run: git status
       - uses: google-github-actions/release-please-action@v3
         with:
           release-type: node
@@ -17,7 +20,7 @@ jobs:
           node-version: 16
           cache: npm
       - run: |
-          echo ${{ toJSON( steps.release.outputs ) }}
+          echo ${{ toJSON( steps ) }}
           git branch
           git status
       - run: |
