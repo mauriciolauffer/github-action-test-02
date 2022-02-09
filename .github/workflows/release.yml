@@ -15,18 +15,3 @@ jobs:
         with:
           release-type: node
           package-name: github-action-test-02
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-        with:
-          node-version: 16
-          cache: npm
-          registry-url: 'https://registry.npmjs.org'
-      - run: |
-          git branch
-          git status
-      - run: |
-          npm run lint
-          npm run test
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
-        if: ${{ steps.release.outputs.release_created }}
