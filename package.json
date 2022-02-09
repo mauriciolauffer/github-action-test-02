@@ -4,8 +4,12 @@
   "description": "GitHub Action Test 02",
   "author": "Mauricio Lauffer",
   "devDependencies": {
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/npm": "^9.0.0",
+    "@semantic-release/release-notes-generator": "^10.0.3",
     "eslint": "^8.8.0",
-    "eslint-config-mlauffer-ui5": "^0.3.1"
+    "eslint-config-mlauffer-ui5": "^0.3.1",
+    "semantic-release": "^19.0.2"
   },
   "scripts": {
     "start": "ui5 serve",
