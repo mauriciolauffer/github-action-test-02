@@ -1,6 +1,8 @@
+'use strict';
+
 /*
- * openui5-tour
- * (c) Copyright 2017-2021 Mauricio Lauffer
+ * github-action-test-02
+ * (c) Copyright 2017-2022 Mauricio Lauffer
  * Licensed under the MIT license. See LICENSE file in the project root for full license information.
  */
 
@@ -22,14 +24,12 @@ sap.ui.define([
  * @returns {object} TourStep control, an extended UI5 control
  */
 function(Button, ButtonType, PlacementType, ResponsivePopover, Control) {
-  'use strict';
-
   /**
    * OpenUI5 TourStep.
    * Tour Step is a popup with the details to be displayed
    *
    * @author Mauricio Lauffer
-   * @version 100.0.5
+   * @version 0.0.1
    *
    * @class
    * @namespace

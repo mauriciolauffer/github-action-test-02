@@ -1,0 +1,15 @@
+specVersion: '2.2'
+metadata:
+  name: github-action-test-02
+  copyright: |-
+    github-action-test-02
+     * (c) Copyright 2017-${currentYear} Mauricio Lauffer
+     * Licensed under the MIT license. See LICENSE file in the project root for full license information.
+type: library
+framework:
+  name: OpenUI5
+  version: 1.96.0
+  libraries:
+    - name: sap.ui.core
+    - name: sap.m
+      development: true

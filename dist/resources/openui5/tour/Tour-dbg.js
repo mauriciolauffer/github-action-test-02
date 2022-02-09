@@ -1,6 +1,8 @@
+'use strict';
+
 /*
- * openui5-tour
- * (c) Copyright 2017-2021 Mauricio Lauffer
+ * github-action-test-02
+ * (c) Copyright 2017-2022 Mauricio Lauffer
  * Licensed under the MIT license. See LICENSE file in the project root for full license information.
  */
 
@@ -14,13 +16,11 @@ sap.ui.define([
  * @returns {object} Tour control, an extended UI5 control
  */
 function(Control) {
-  'use strict';
-
   /**
    * OpenUI5 Tour.
    *
    * @author Mauricio Lauffer
-   * @version 100.0.5
+   * @version 0.0.1
    *
    * @class
    * @namespace

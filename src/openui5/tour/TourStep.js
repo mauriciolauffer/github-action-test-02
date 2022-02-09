@@ -1,3 +1,5 @@
+'use strict';
+
 /*
  * ${copyright}
  */
@@ -20,8 +22,6 @@ sap.ui.define([
  * @returns {object} TourStep control, an extended UI5 control
  */
 function(Button, ButtonType, PlacementType, ResponsivePopover, Control) {
-  'use strict';
-
   /**
    * OpenUI5 TourStep.
    * Tour Step is a popup with the details to be displayed

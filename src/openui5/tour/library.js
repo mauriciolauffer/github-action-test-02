@@ -1,13 +1,13 @@
+'use strict';
+
 /*
  * ${copyright}
  */
-// comment x3
+
 sap.ui.define([
   'sap/ui/core/library',
-  'sap/m'
+  'sap/m/library'
 ], function() {
-  'use strict';
-
   /**
    * OpenUI5 library: openui5.tour
    *

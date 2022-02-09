@@ -1,22 +1,22 @@
+'use strict';
+
 /*
- * openui5-tour
- * (c) Copyright 2017-2021 Mauricio Lauffer
+ * github-action-test-02
+ * (c) Copyright 2017-2022 Mauricio Lauffer
  * Licensed under the MIT license. See LICENSE file in the project root for full license information.
  */
-// comment x3
+
 sap.ui.define([
   'sap/ui/core/library',
-  'sap/m'
+  'sap/m/library'
 ], function() {
-  'use strict';
-
   /**
    * OpenUI5 library: openui5.tour
    *
    * @namespace
    * @name openui5.tour
    * @author Mauricio Lauffer
-   * @version 100.0.5
+   * @version 0.0.1
    * @public
    */
   return sap.ui.getCore().initLibrary({
@@ -30,6 +30,6 @@ sap.ui.define([
       'openui5.tour.TourStep'
     ],
     noLibraryCSS: true,
-    version: '100.0.5'
+    version: '0.0.1'
   });
 });

@@ -1,3 +1,5 @@
+'use strict';
+
 /*
  * ${copyright}
  */
@@ -12,8 +14,6 @@ sap.ui.define([
  * @returns {object} Tour control, an extended UI5 control
  */
 function(Control) {
-  'use strict';
-
   /**
    * OpenUI5 Tour.
    *
