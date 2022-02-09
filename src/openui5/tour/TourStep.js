@@ -14,7 +14,7 @@ sap.ui.define([
 /**
  * Module Dependencies
  *
- * @param {typeof sap.m.Button} Button UI5 button
+ * @param {typeof sap.m.Button} Button UI5 button d
  * @param {typeof sap.m.ButtonType} ButtonType UI5 button type
  * @param {typeof sap.m.PlacementType} PlacementType UI5 placement type
  * @param {typeof sap.m.ResponsivePopover} ResponsivePopover UI5 Responsive popover
