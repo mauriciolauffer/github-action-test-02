@@ -18,7 +18,8 @@
     "start": "ui5 serve",
     "build": "ui5 build --clean-dest",
     "lint": "eslint src",
-    "test": "npm run lint"
+    "test": "npm run lint",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
