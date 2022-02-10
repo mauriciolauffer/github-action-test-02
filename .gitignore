@@ -45,3 +45,4 @@ web.config
 # Ignore yarn files
 yarn.lock
 *yarn
+dist/
