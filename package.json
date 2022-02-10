@@ -3,6 +3,9 @@
   "version": "0.1.6",
   "description": "GitHub Action Test 02",
   "author": "Mauricio Lauffer",
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/commit-analyzer": "^9.0.2",
