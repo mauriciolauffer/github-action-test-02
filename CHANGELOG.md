@@ -1,3 +1,10 @@
+## [0.1.7](https://github.com/mauriciolauffer/github-action-test-02/compare/v0.1.6...v0.1.7) (2022-02-10)
+
+
+### Bug Fixes
+
+* x27 ([bb010bd](https://github.com/mauriciolauffer/github-action-test-02/commit/bb010bda79cfd9d7a80fd821a2fa8daecce9e198))
+
 ## [0.1.6](https://github.com/mauriciolauffer/github-action-test-02/compare/v0.1.5...v0.1.6) (2022-02-10)
 
 
