@@ -7,5 +7,5 @@ plugins: [
     # "@semantic-release/github",
     "@semantic-release/npm",
 ]
-dryRun: true
+dryRun: false
 ci: false
