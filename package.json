@@ -22,7 +22,7 @@
     "build": "ui5 build --clean-dest",
     "lint": "eslint src",
     "test": "npm run lint",
-    "prepublishOnly": "npm run build"
+    "version": "npm run build"
   },
   "repository": {
     "type": "git",
