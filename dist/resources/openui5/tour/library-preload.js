@@ -19,7 +19,7 @@ sap.ui.require.preload({
  * github-action-test-02
  * (c) Copyright 2017-2022 Mauricio Lauffer
  * Licensed under the MIT license. See LICENSE file in the project root for full license information.
- */sap.ui.define(["sap/ui/core/library","sap/m/library"],function(){return sap.ui.getCore().initLibrary({name:"openui5.tour",dependencies:["sap.ui.core","sap.m"],controls:["openui5.tour.Tour","openui5.tour.TourStep"],noLibraryCSS:true,version:"0.1.10"})});
+ */sap.ui.define(["sap/ui/core/library","sap/m/library"],function(){return sap.ui.getCore().initLibrary({name:"openui5.tour",dependencies:["sap.ui.core","sap.m"],controls:["openui5.tour.Tour","openui5.tour.TourStep"],noLibraryCSS:true,version:"0.1.12"})});
 },
-	"openui5/tour/manifest.json":'{"sap.app":{"id":"openui5.tour","type":"library","applicationVersion":{"version":"0.1.10"},"title":"An OpenUI5 library to give a guided tour through your UI5 webapp."},"sap.ui":{"technology":"UI5","deviceTypes":{"desktop":true,"tablet":true,"phone":true}},"sap.ui5":{"dependencies":{"minUI5Version":"1.30.0","libs":{"sap.ui.core":{},"sap.m":{"lazy":true}}},"contentDensities":{"compact":true,"cozy":true}}}'
+	"openui5/tour/manifest.json":'{"sap.app":{"id":"openui5.tour","type":"library","applicationVersion":{"version":"0.1.12"},"title":"An OpenUI5 library to give a guided tour through your UI5 webapp."},"sap.ui":{"technology":"UI5","deviceTypes":{"desktop":true,"tablet":true,"phone":true}},"sap.ui5":{"dependencies":{"minUI5Version":"1.30.0","libs":{"sap.ui.core":{},"sap.m":{"lazy":true}}},"contentDensities":{"compact":true,"cozy":true}}}'
 });
