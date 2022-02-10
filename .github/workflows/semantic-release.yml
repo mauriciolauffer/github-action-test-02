@@ -1,0 +1,25 @@
+name: semantic-release
+on:
+  push:
+    branches: [main]
+
+# permissions: read-all
+
+jobs:
+  semantic-release:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v2
+      with:
+        node-version: 16
+        cache: npm
+    - run: |
+        npm i @ui5/cli semantic-release @semantic-release/commit-analyzer \
+              @semantic-release/release-notes-generator @semantic-release/npm  \
+              @semantic-release/changelog  @semantic-release/git \
+              @semantic-release/github \
+              -g --ignore-scripts
+        npm ci --ignore-scripts
+        npm run build
+        npx semantic-release
