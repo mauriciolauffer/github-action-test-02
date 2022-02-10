@@ -3,12 +3,12 @@
     "id": "openui5.tour",
     "type": "library",
     "applicationVersion": {
-      "version": "0.1.14"
+      "version": "0.1.15"
     },
     "title": "An OpenUI5 library to give a guided tour through your UI5 webapp."
   },
   "sap.ui": {
-    "technology": "UI5", 
+    "technology": "UI5",
     "deviceTypes": {
       "desktop": true,
       "tablet": true,

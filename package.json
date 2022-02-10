@@ -1,6 +1,6 @@
 {
   "name": "github-action-test-02",
-  "version": "0.1.14",
+  "version": "0.1.15",
   "description": "GitHub Action Test 02",
   "author": "Mauricio Lauffer",
   "files": [
@@ -22,7 +22,7 @@
     "build": "ui5 build --clean-dest",
     "lint": "eslint src",
     "test": "npm run lint",
-    "version": "npm run build && git add ."
+    "version": "npm run build && git add -A dist"
   },
   "repository": {
     "type": "git",
