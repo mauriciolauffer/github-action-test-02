@@ -1,3 +1,10 @@
+## [0.1.11](https://github.com/mauriciolauffer/github-action-test-02/compare/v0.1.10...v0.1.11) (2022-02-10)
+
+
+### Bug Fixes
+
+* x33 ([c1f0bc3](https://github.com/mauriciolauffer/github-action-test-02/commit/c1f0bc3d9f0d51636fa4d52288c4dce0d1b57008))
+
 ## [0.1.10](https://github.com/mauriciolauffer/github-action-test-02/compare/v0.1.9...v0.1.10) (2022-02-10)
 
 
