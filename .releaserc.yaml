@@ -4,10 +4,7 @@ plugins: [
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
     "@semantic-release/npm",
-    ["@semantic-release/git", {
-      "assets": ['dist/**/*', 'CHANGELOG.md',
-      'package.json', 'package-lock.json', 'npm-shrinkwrap.json']
-    }],
+    "@semantic-release/git",
     #"@semantic-release/github"
 ]
 ci: true

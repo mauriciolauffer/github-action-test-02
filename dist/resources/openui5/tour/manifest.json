@@ -8,7 +8,7 @@
     "title": "An OpenUI5 library to give a guided tour through your UI5 webapp."
   },
   "sap.ui": {
-    "technology": "UI5",
+    "technology": "UI5", 
     "deviceTypes": {
       "desktop": true,
       "tablet": true,
