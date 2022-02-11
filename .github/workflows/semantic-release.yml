@@ -23,3 +23,5 @@ jobs:
         npm ci --ignore-scripts
         npm run build
         npx semantic-release
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
