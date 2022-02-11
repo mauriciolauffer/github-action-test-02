@@ -1,7 +1,7 @@
 name: release
 on:
   push:
-    branches: [mainxxx]
+    branches: [main]
 
 jobs:
   release:
@@ -12,10 +12,6 @@ jobs:
         with:
           release-type: node
           package-name: github-action-test-02
-      - run: |
-          echo ${{ steps.release.outputs }}
-          git branch
-          git status
       - run: |
           npm run lint
           npm run test
