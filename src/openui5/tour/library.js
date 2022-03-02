@@ -9,7 +9,7 @@ sap.ui.define([
   'sap/m/library'
 ], function() {
   /**
-   * OpenUI5 library: openui5.tour
+   * OpenUI5 library: openui5.tour - x2
    *
    * @namespace
    * @name openui5.tour
