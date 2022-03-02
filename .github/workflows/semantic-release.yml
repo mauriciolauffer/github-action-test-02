@@ -1,7 +1,8 @@
 name: semantic-release
 on:
   push:
-    branches: [main]
+    branches: [main-xxx]
+  workflow_dispatch:
 
 # permissions: read-all
 
