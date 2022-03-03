@@ -11,12 +11,12 @@ sap.ui.define([
   'sap/m/library'
 ], function() {
   /**
-   * OpenUI5 library: openui5.tour
+   * OpenUI5 library: openui5.tour - x8
    *
    * @namespace
    * @name openui5.tour
    * @author Mauricio Lauffer
-   * @version 0.1.16
+   * @version 0.1.21
    * @public
    */
   return sap.ui.getCore().initLibrary({
@@ -30,6 +30,6 @@ sap.ui.define([
       'openui5.tour.TourStep'
     ],
     noLibraryCSS: true,
-    version: '0.1.16'
+    version: '0.1.21'
   });
 });
