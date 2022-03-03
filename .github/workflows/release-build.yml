@@ -18,7 +18,9 @@ jobs:
         node-version: 16
         cache: npm
     - run: |
+        npm i -g @ui5/cli --ignore-scripts
         npm ci --ignore-scripts
         npm run build
+    - run: |
         git commit -m "build: Build before release"
         git push
