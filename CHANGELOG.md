@@ -5,6 +5,16 @@
 
 * x40 ([23c6041](https://github.com/mauriciolauffer/github-action-test-02/commit/23c604172242453a5b8dcc57eb06a9a080845fe7))
 
+### [0.1.21](https://github.com/mauriciolauffer/github-action-test-02/compare/v0.1.20...v0.1.21) (2022-03-03)
+
+
+### Bug Fixes
+
+* x10 ([7bed508](https://github.com/mauriciolauffer/github-action-test-02/commit/7bed508632b45310c5e48b2a4f9038ecc14fd6c7))
+* x10 ([706aafe](https://github.com/mauriciolauffer/github-action-test-02/commit/706aafe2b37cfec2c6918dfa9c3c2e8112918293))
+* x8 ([d3381ab](https://github.com/mauriciolauffer/github-action-test-02/commit/d3381abb4c00360e6141c0ea7f4fd639572c831d))
+* x9 ([e22d8c9](https://github.com/mauriciolauffer/github-action-test-02/commit/e22d8c9dec163d9dd22c619f11e76c2889cb48ab))
+
 ### [0.1.20](https://github.com/mauriciolauffer/github-action-test-02/compare/v0.1.19...v0.1.20) (2022-03-02)
 
 
